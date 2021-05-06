@@ -1,0 +1,198 @@
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	src:url(..fonts/Roboto-Regular.ttf);
+}
+
+body{
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+	overflow: hidden;
+}
+
+.topbar{
+	background-color: #fcfcfc !important;
+	padding: 30px;
+}
+.topbar .media i{
+	color: orange;
+    font-size: 40px;
+    margin-right: 7px;
+}
+.topbar .media .media-body span {
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: gray;
+}
+.topbar .media .media-body div {
+    font-size: 12px;
+   
+}
+
+/*   part 2 style  */
+
+.part2{
+	background-color: white;
+	padding: 20px 0px;
+}
+
+.part2 .link{
+	text-align:center;
+}
+.part2 .navi{
+	justify-content: flex-end;
+}
+
+
+.part2 .btn{
+	background-color: orange;
+	color: white;
+	margin-left: 0px;
+	margin-top: 0px;
+	padding: 10px 15px;
+}
+.part2 ul li{
+	margin: 0px 15px;
+	white-space: nowrap;
+}
+.part2 ul li .active{
+	background-color: orange;
+	border-radius: 3px;
+}
+.part2 ul li a{
+	color: black;
+	font-size: 14px;
+	font-weight: 600;
+}
+.part2 .navbar a:hover, .dropdown:hover{
+  background-color: orange;
+  border-radius: 3px;
+}
+
+.part3{
+	background-image: url("../img/tally_bg3.jpg");
+	margin-bottom: 30px;
+}
+.part3 .firsttt{
+font-size: 45px;
+    color: orange;
+    padding: 100px 0px 20px 190px;
+}
+.part3 .secondary{
+font-size: 25px;
+    color: white;
+    padding: 0px 0px 130px 190px;
+}
+.part3 .secondary span{
+font-size: 25px;
+    color:orange;
+}
+
+.part4 .heading1{
+	font-size: 35px;
+	text-align: center;
+	text-transform: capitalize;
+	color: black;
+	font-weight: bold;
+	color: #1F1E1E;
+}
+
+.part4 .text1
+{
+	color: #848484;
+	font-size: 14px;
+	padding-bottom: 8px;
+	padding-top: 6px;
+}
+.part4 a{
+	color: #fc567d;
+	font-weight: 600;
+}
+.part4 .heading2{
+	font-size: 35px;
+	font-weight: bold;
+}
+
+
+
+
+.part11{
+	background-image: url("../img/footer-bg.jpg");
+	background-position: initial !important;
+    background-size: initial !important;
+    background-repeat: no-repeat;
+    background-attachment: initial !important;
+    background-origin: initial !important;
+    background-clip: initial !important;
+    background-color: rgb(33, 35, 49) !important;
+    color: grey;
+}
+
+.part11 ul li{
+	border-bottom: 1px dashed grey;
+	padding: 10px 0px;
+	list-style: none;
+}
+.part11 ul{
+	margin-top: 10px;
+	padding-left: 0px;
+	text-transform: capitalize;
+}
+
+.part11 .second li{
+	border-bottom: 1px dashed grey;
+	padding: 5px 0px;
+}
+.part11 .hj i{
+	color: white;
+	font-size: 18px;
+}
+
+.part11 .links{
+	color: white;
+	font-size: 28px;
+	text-transform: capitalize;
+}
+.part11 .open{
+	color: white;
+	font-size: 28px;
+	text-transform: capitalize;
+}
+
+footer{
+	background-color: grey;
+	color: white;
+	padding: 15px 0px 15px 0px;
+	text-align: center;
+}
+
+
+
+
+
+@media(max-width: 992px){
+	.topbar{
+		text-align: center;
+	}
+	
+	.topbar .media{
+		display: block;
+		padding-top: 30px
+	}
+
+	.topbar .media .media-body div {
+ 		margin-top: -5px
+ 	}
+
+}
+
+@media(max-width: 1242px){
+	.navi{
+		padding-left: 0px;
+
+	}
+	
+}
+
